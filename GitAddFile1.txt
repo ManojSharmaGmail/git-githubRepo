@@ -1,0 +1,55 @@
+Add First File
+
+
+Client CAS Automated Tests
+ 
+
+Test Name	Build Number	SOT Version	Completion %	Date	Status	Defects Raised	Comments
+VS_CAS (Super - Digital_Trunk)	8.10.201.1597 	 	 100%	 	 	 	Pass (workaround for BASE-232901)
+VS_CAS (Super - NonDigital)	8.10.201.1597 	 	 100%	 	 	  BASE-234828, BASE-234919	failed
+(workaround for BASE-232901)
+VS_CAS (Super NonDigital_Regression)	8.10.201.1597 	 	 100%	 		 	Pass
+VS_CAS (Pension - Digital_Trunk)	 8.10.201.1597	 	 100%	 		 BASE-234828	 Failed
+VS_CAS (Pension - NonDigital)	8.10.201.1597 	 	 100%	 		 BASE-234828 	Failed
+VS_CAS (Pension-NonDigital_Regression)	8.10.201.1597 	 	 100%	 		 	Pass
+Mercer_Smoke Test (Part1)	8.10.201.1597 	 	 100%	 		 BASE-234850	 Failed
+Mercer_Smoke Test (Part2)	8.10.201.1597 	 	 100%	 		 	 Pass
+Mercer CAS (Super_V3)	8.10.201.1597 	 	 100%	 		 	 Pass
+Mercer CAS (Pension_V3)	8.10.201.1597 	 	 100%	 		 	 Pass
+Suncorp_CAS (Super)	8.10.201.1597 	 	 100%	 		 	 Pass
+Suncorp_CAS (Pension)	8.10.201.1597 	 	 100%	 		 	Pass
+SUNCORP_PENSION_REGRESSION	8.10.201.1597 	 	100% 	 		 	Pass (Warnings due to BASE-226904)
+SUNCORP_SUPERANNUATION_REGRESSION	8.10.201.1597 	 	 100%	 		 	Pass (Warnings due to BASE-226904)
+TechM_CAS UT	8.10.201.1597 	 	 50%	 		BASE-234709	Blocked
+TechM_CAS Super	8.10.201.1597 	 	 100%	 		 	In Progress
+TechM_CAS Pension	8.10.201.1597	 	 100%	 		 	Pass
+TAL Smoke Test	8.10.201.1597 	 	 100%	 		 	 Enhancement values to be accepted (BASE-233502
+)
+TAL SmartWealth	8.10.201.1597 	 	 100%	 		 	Pass
+LGIA	8.10.201.1597 	 	 30%	 		 BASE-234735	 Blocked
+Scrum Based Automated Tests
+
+Test Name	Build Number	SOT Version	Completion %	Date	Status	Defects Raised	Comments
+Mercer_Insurance_Test	8.10.201.1597	 	100%	11/06/2019		 	Pass
+Mercer_Regular_Fee_Test	8.10.201.1597	 	100%	11/06/2019		 	Pass
+Mercer_Contribution_Test	8.10.201.1597	 	100%	11/06/2019		 BASE-234850	Failed
+Suncorp_Smoke_Test	8.10.201.1597	 	100%	12/06/2019	 	 BASE-235202	 Failed
+Suncorp_Insurance_Test	8.10.201.1597	 	 90%	11/06/2019		BASE-235209	Blocked
+Techm_Smoke_Test	8.10.201.1597	 	 100%	11/06/2019	 	 BASE-234920	 Failed
+Vicsuper_Pension_Test	8.10.201.1597	 	100%	11/06/2019		 	Pass
+Vicsuper_Contribution_Test	8.10.201.1597	 	 30%	13/06/2019	 	 	 
+Tal_Regression_Test	8.10.201.1597	 	100%	11/06/2019		 	Pass
+ 
+Web Build Details
+Core Web Module Build:
+Beechworth Web Module:
+AYR Web Module:
+The supported Java version for Sonata 8.10 is Java 8 Update 172. 
+
+Make sure the DB is hosted on Oracle 18c
+
+Supported AppServers Wildfly 11 or EAP 7.1.1
+
+Please use installer version of 8.10.XX to perform these tests.
+
+DEV Manager for AUCR Release, JIRA Updates and CAS Issues: Mark Dy
